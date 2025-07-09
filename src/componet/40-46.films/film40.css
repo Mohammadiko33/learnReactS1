@@ -1,0 +1,148 @@
+
+:root {
+ --weyw: #fffde6;
+ --gy: #e3e3e3;
+ --yw: #ffc300;
+ --rd2: #c90000;
+ --gy2: #7d7c7c;
+}
+
+.sale_off_item1 {
+ position: relative;
+ padding: 2.3rem 0 1.8rem 1.3rem;
+ background-color: var(--gy);
+ border: 1px solid var(--weyw);
+ border-radius: 1rem;
+ transition: all 0.5s ease-in 0.1s;
+ overflow: hidden;
+ flex-grow: 1;
+}
+
+span{
+ color: #202020;
+}
+
+.sale_off_item1__LR {
+ display: flex;
+}
+.sale_off_item1_left__head {
+ width: 1000%;
+ display: flex;
+ align-items: center;
+ gap: 0.7rem;
+ overflow: hidden;
+}
+
+.sale_off_item1_left__head span:first-child {
+ color: var(--gy2);
+ transition: all 0.5s ease-in 0.1s;
+}
+
+.sale_off_item1_left__head span:last-child {
+ display: inline-block;
+ width: 75%;
+ height: 1px;
+ background-color: #00000030;
+ transition: all 0.5s ease-in 0.1s;
+}
+
+.sale_off_item1_left__header h2 {
+ color: var(--rd2);
+ font-weight: 700;
+ font-size: 2.2rem;
+ transition: all 0.5s ease-in 0.1s;
+ margin: 0;
+ margin-top: 1rem;
+ max-width: 21rem;
+ text-align: left;
+}
+
+.sale_off_item1_left__info {
+ margin-top: 0.3rem;
+}
+.sale_off_item1_left__info p {
+ max-width: 11rem;
+ font-size: 1rem;
+ line-height: 1.6rem;
+ font-weight: 500;
+ color: #202;
+ transition: all 0.5s ease-in 0.1s;
+ text-align: left;
+ margin: 0rem;
+ margin-top: 0.5rem;
+}
+.sale_off_item1_left__info div {
+ margin-top: 0.8rem;
+ display: flex;
+ align-items: center;
+ column-gap: 0.8rem;
+}
+.sale_off_item1_left__info del {
+ margin-top: 3px;
+ color: var(--gy2);
+ transition: all 0.5s ease-in 0.1s;
+}
+
+.sale_off_item1_left__info span {
+ font-size: 1.5rem;
+ color: var(--rd2);
+ transition: all 0.5s ease-in 0.1s;
+}
+
+.sale_off_item1_left__order {
+ margin-top: 1.6rem;
+}
+
+.sale_off_item1_left__order button {
+ display: flex;
+ align-items: center;
+ gap: 0.5rem;
+ background-color: var(--bk);
+ border-radius: 50px;
+ color: #fff;
+ padding: 10px 15px;
+ transition: all 0.5s ease-in 0.1s;
+}
+
+.sale_off_item1_left__order img {
+ cursor: pointer;
+}
+
+.sale_off_item1_left__order span {
+ cursor: pointer;
+}
+.sale_off_item1__right img {
+ position: absolute;
+ top: 60px;
+ right: 0px;
+ width: 9rem;
+}
+
+.sale_off_item1:hover {
+ transform: scale(1.08);
+ background-color: var(--rd2);
+}
+.sale_off_item1:hover .sale_off_item1_left__head span:first-child,
+.sale_off_item1:hover .sale_off_item1_left__info p,
+.sale_off_item1:hover .sale_off_item1_left__info div del {
+ color: #fff;
+}
+.sale_off_item1:hover .sale_off_item1_left__header h2,
+.sale_off_item1:hover .sale_off_item1_left__info div span {
+ color: var(--yw);
+}
+.sale_off_item1:hover button {
+ background-color: #fff;
+ color: var(--bk);
+}
+
+
+#combo__funny , #salad {
+ top: 7.5rem;
+ right: 0;
+}
+
+#chickenBarger {
+ top: 9rem ;
+ right: 0;
+}

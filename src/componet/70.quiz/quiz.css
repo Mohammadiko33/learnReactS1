@@ -1,0 +1,79 @@
+body{
+ background-color: #263238;
+}
+
+.quizContiner{
+ background-color: #00BCD4;
+ padding: 1rem;
+ border-radius: 1rem;
+ box-shadow: 12px 8px 1.5rem -12px #81d1e4;
+}
+.accpet_Sign_up{
+ 
+}
+.quiz{
+color: #fff;
+text-align: center;
+margin-bottom: 1.5rem;
+font-size: 1.2rem;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.quiz::after{
+ content: " ?";
+}
+.javabs{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 1rem;
+ transition: all 0.5s ease-in-out .05s;
+}
+.javab:hover{
+  animation: bgRotate 2.5s ease-in-out 0.05s infinite;
+}
+.javab:active{
+  animation: none;
+  background: linear-gradient(60deg , #69F0AE , #76FF03);
+  transform: scale(0.9);
+}
+.javab{
+ font-family: unset;
+ text-transform: capitalize;
+ padding: 0.4rem 0.5rem;
+flex-grow: 1;
+width: 45%;
+ border-radius: 0.25rem;
+ font-size: 1.2rem;
+ background: transparent;
+ border: 2.5px solid #FBE9E7;
+}
+.natiga{
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 0.7rem 1.5rem;
+}
+
+@keyframes bgRotate {
+ 0%{
+   background: linear-gradient(0deg , #B9F6CA , #64DD17);
+ }
+ 17%{
+   background: linear-gradient(60deg , #69F0AE , #76FF03);
+ }
+ 32%{
+   background: linear-gradient(120deg , #00E676 , #B2FF59);
+ }
+ 49%{
+   background: linear-gradient(180deg , #00C853 , #CCFF90);
+ }
+ 64%{
+   background: linear-gradient(240deg , #00E676 , #B2FF59);
+ }
+ 81%{
+   background: linear-gradient(300deg , #69F0AE , #76FF03);
+ }
+ 100%{
+   background: linear-gradient(360deg , #B9F6CA , #64DD17);
+ }
+}

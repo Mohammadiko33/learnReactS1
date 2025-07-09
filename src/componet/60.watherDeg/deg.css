@@ -1,0 +1,95 @@
+body{
+ background-color: #000;
+}
+
+.degCounter{
+background-color: #303030;
+width: 16rem;
+height: 23rem;
+border-radius: 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+box-shadow: 5px 5px 1.5rem -5px #696969d6;
+}
+
+.circleMain{
+width: 12rem;
+height: 12rem;
+background-color: #000000;
+border-radius: 10rem;
+margin-bottom: 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 0.3s ease-in-out 0.05s;
+}
+#deg , .typeDeg{
+color: #fff;
+font-size: 3rem;
+font-weight: 700;
+font-family: sans-serif;
+}
+.degBtns{
+display: flex;
+gap: 2rem;
+}
+.degAddBTN{
+padding: 0.8rem 1.3rem !important;
+}
+.degbtn{
+padding: 0.8rem 1.5rem;
+border-radius: 10rem;
+font-size: 1.5rem;
+cursor: pointer;
+transition: all 0.3s ease-in-out 0.05s;
+animation: rotateamodi all 0.3s ease-in-out 0.05s infinite;
+}
+
+@keyframes rotateamodi {
+ 0%{
+  transform: rotate(0deg);
+ }
+}
+
+.degbtn:hover{
+ background-color: transparent;
+ background: linear-gradient(315deg, #4f4f4f, #000000);
+ color: #fff;
+}
+/* deg <= -5 */
+.varyColdWeather{
+ background-color:#3d38f9;
+}
+.varyColdWeather:hover{
+ box-shadow: 1px 1px 0.5rem 2px #3d38f9;
+}
+/* deg <= 10 */
+.coldWeather{
+ background-color:#0087ff;
+}
+.coldWeather:hover{
+ box-shadow: 1px 1px 0.5rem 2px #0087ff;
+}
+/* 11 > deg <= 25 */
+.normalWeather{
+ background-color:#1cfa62;
+}
+.normalWeather:hover{
+ box-shadow: 1px 1px 0.5rem 2px #1cfa36;
+}
+/* 26 > deg <= 35 */
+.hotWeather{
+ background-color: #ffb806;
+}
+.hotWeather:hover{
+ box-shadow: 1px 1px 0.5rem 2px #ffb806;
+}
+/* 36 > deg */
+.varyHotWeather{
+ background-color: #f52c2c;
+}
+.varyHotWeather:hover{
+ box-shadow: 1px 1px 0.5rem 2px #f52c2c;
+}

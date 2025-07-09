@@ -1,0 +1,38 @@
+.modal_massage{
+ background-color: #1dff8e;
+ border-radius: 0.3rem;
+
+ position: absolute;
+}
+.modal_header__content{
+ padding: 0.3rem 1rem;
+}
+.modal_header{
+height: 24px;
+text-align: right;
+}
+.modal_close{
+cursor: pointer;
+}
+.modal_content{
+
+}
+.modal_title{
+
+}
+.modal_btns_footer{
+
+}
+.modal_btn{
+width: 50%;
+padding: 0.3rem 0;
+border: none;
+cursor: pointer;
+transition: all 0.25s ease-in-out 0.03s;
+}
+.modal_btn:hover{
+ background-color: #fff;
+}
+.modal_btn:first-child{
+border-right: 1px solid #0000001e;
+}

@@ -1,0 +1,39 @@
+body{
+ background-color: #adffb6    ;
+ background: linear-gradient(45deg, #b4ffff, #a2ffa2);
+}
+
+form{
+ display: flex;
+ flex-direction: column;
+ background-color: #fff;
+ padding: 1.5rem 1rem;
+ gap: 1rem;
+ border-radius: 1rem;
+ width: 20rem;
+}
+input{
+width: 100%;
+background: linear-gradient(45deg, #54b8ff 25%, #00ffa1);;
+}
+
+input:focus .visibledMassage{
+ display: none;
+}
+
+input , button , .accpet_Sign_up{
+ border-radius: 0.2rem;
+}
+
+.accpet_Sign_up{
+ padding: 0.7rem 1.2rem;
+ width: 100%;
+ background-color: #00effb;
+}
+.accpet_Sign_up__massage{
+color: #ffffff;
+} 
+
+.visibledMassage{
+ color: #f00;
+}

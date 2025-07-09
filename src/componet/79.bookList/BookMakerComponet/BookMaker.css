@@ -1,0 +1,31 @@
+table{
+ margin-top: 5rem;
+ width: 100%;
+ text-align: center;
+ }
+
+tr{
+ display: table-row;
+ width: 100%;
+ height: 4rem;
+}
+
+th{
+ background-color: #fff;
+ border-right: var(--bgy);
+ border-radius: 0px;
+ overflow-x: auto;
+
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ overflow: hidden;
+}
+
+th:last-child{
+ border-right: none;
+}
+
+.nameBook , .author , .yaer{
+ background-color: var(--tdc);
+ border-bottom: var(--bgy);
+}

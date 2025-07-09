@@ -1,0 +1,63 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.counter_section{
+ border-radius: 1rem;
+ border: 2px solid #202020;
+ background: linear-gradient(45deg , #05ffa8c0 , #51ffd1c0);
+ width: 400px;
+ height: 400px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ transition: all 0.3s ease-in-out 0.05s;
+}
+.counter_section:hover{
+ box-shadow: inset 1px 1px 0.5rem -1px #00ff4c;
+ background-color: transparent;
+ background: linear-gradient(45deg , #51ffd1c0 , #05ffbcc0);
+}
+.counter_name{
+ font-size: 2.5rem;
+ margin-bottom: 1rem;
+}
+.counter{
+ font-size: 3rem;
+ margin-bottom: 1rem;
+ margin-top: 0;
+ cursor: auto;
+}
+.counter_btn{
+ padding: 0.5rem 1.5rem;
+ color: #fff;
+ background-color: #383838;
+ cursor: pointer;
+ border-radius: 0.5rem;
+ transition: all 0.3s ease-in-out 0.05s;
+ margin-top: 1rem;
+}
+.counter_btn:first-child{
+ margin-right: 1rem;
+}
+.counter_btn:hover{
+ background-color: #000000;
+}
+.counter_btn:hover{
+ animation: smallBig 0.5s ease-in-out 0.1s alternate-reverse;
+}
+
+@keyframes smallBig {
+ 0%{
+transform: scale(1);
+ }
+ 50%{
+  transform: scale(0.8);
+ }
+ 100%{
+transform: scale(1);
+ }
+}

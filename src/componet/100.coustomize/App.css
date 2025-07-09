@@ -1,0 +1,12 @@
+.btn{
+ flex-grow: 1;
+}
+.caption{
+ font-size: 0.7rem;
+ color: #0000008a;
+ font-family: sans-serif;
+ font-weight: 700;
+}
+.header_title{
+ font-size: 1.2rem;
+}
