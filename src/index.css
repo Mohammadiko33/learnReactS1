@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Yekan';
+  src: url(../../../AA-AllMyFonts/Yekan.ttf);
+}
+@font-face {
+  font-family: 'Vazir';
+  src: url(../../../AA-AllMyFonts/Vazirmatn-Regular.ttf);
+}
+
+*{
+  color: #202000;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  /* font-family: "Yekan" , "Vazir" , sans-serif; */
+  /* font-family: "Vazir" , sans-serif; */
+  font-family: sans-serif;
+  text-transform: capitalize;
+}
+
+html{
+  scroll-behavior: smooth;
+  font-size: 20px;
+}
+
+button, input, select, textarea{
+  text-transform: inherit;
+}
+
+body {
+  font-size: 20px;
+  margin: 0;
+  font-family: "Vazir" , "Yekan" , sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+  text-transform: capitalize;
+}    
+
+#webpack-dev-server-client-overlay-div{
+ white-space: normal !important; 
+}

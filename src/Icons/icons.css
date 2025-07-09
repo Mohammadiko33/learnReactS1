@@ -1,0 +1,14 @@
+body{
+ background-color: #202020;
+}
+
+div {
+  display: flex;
+  width: 96vw;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+svg{
+ fill: #fff;
+}
